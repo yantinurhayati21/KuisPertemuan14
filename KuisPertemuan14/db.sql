@@ -1,0 +1,7 @@
+CREATE DATABASE kuis14;
+USE kuis14;
+
+CREATE TABLE admin(
+	email VARCHAR(15)PRIMARY KEY,
+	kata_sandi VARCHAR(15)
+);
